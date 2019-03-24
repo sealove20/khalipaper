@@ -9,7 +9,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      href="https://fonts.googleapis.com/css?family=Germania+One|Oswald"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Germania+One|Oswald"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -18,45 +22,124 @@
   </head>
   <body>
     <nav>
-      <div class="nav-wrapper">
+      <div class="nav-wrapper red lighten-1">
         <a href="#" class="brand-logo">Khalipaper</a>
+        <a href="https://www.instagram.com/khalipaper/"
+          ><img
+            src="./imgs/instagram.png"
+            class="right hide-on-small-only"
+            id="insta"
+            alt="insagram icon"
+        /></a>
       </div>
     </nav>
     <div class="parallax-container">
       <div class="parallax"><img src="./imgs/wiz1.jpg" /></div>
     </div>
-    <div class="section white center">
+    <div class="section white center height">
       <div class="row container">
-        <h1 class="header">Khalipaper</h1>
-        <p class="grey-text text-darken-3 lighten-3">
+        <h2 id="missao-titulo" class="brown-text lighten-1 ">
+          Nossa missão
+        </h2>
+        <p id="missao" class="flow-text">
           Em 2018 , o amor pelo desenho , pincéis e material de papelaria fez
           nascer a khalipaper, com o objetivo de compartilhar essa paixão com
-          seus clientes para que ele posso colocar em prática todos o seu
-          potencial . A khalipaper é uma loja online que trabalha com produtos
-          da melhor qualidade e valoriza o comprometimento e a responsabilidade
-          .
+          seus clientes para que ele possa colocar em prática todo o seu
+          potencial. A Khalipaper é uma loja online que trabalha com produtos da
+          melhor qualidade e valoriza o comprometimento e a responsabilidade.
         </p>
-        <div class="row">
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center light-blue-text">
-                <i class="material-icons">flash_on</i>
-              </h2>
-              <h5 class="center">Eficiência</h5>
-              <p class="light">
-                Entregamos da melhor maneira possível porque somos fodas,
-                tucupi, tacaca, açai, barum, frutas, água, comida, besouro,
-                tesouro, cavallero, alexandria, bios, bias, bilus, bilas, haha,
-                coringa, montanha
-              </p>
-            </div>
-          </div>
-        </div>
+        <img
+          src="./imgs/NyoI.gif"
+          alt="pen gif"
+          id="gif"
+          class="hide-on-small-only"
+        />
       </div>
     </div>
     <div class="parallax-container">
       <div class="parallax"><img src="./imgs/wiz2.jpg" /></div>
     </div>
+    <div class="section white center">
+      <div class="row container">
+        <p id="nossos-produtos">
+          Trabalhamos com os produtos de melhor qualidade
+        </p>
+        <div class="row">
+          <div class="col s12 m4 shad z-depth-1">
+            <h5 class="center">Artes</h5>
+            <img class="products" src="./imgs/prod1.jpg" alt="brushes" />
+            <a class="waves-effect waves-light btn-small">Ver mais</a>
+          </div>
+          <div class="col s12 m4 shad z-depth-5">
+            <h5 class="center">Papelaria</h5>
+            <img class="products" src="./imgs/prod2.jpg" alt="brushes" />
+            <a class="waves-effect waves-light btn-small">Ver mais</a>
+          </div>
+          <div class="col s12 m4 shad z-depth-1">
+            <div class="icon-block">
+              <h5 class="center">Cultura</h5>
+              <img class="products" src="./imgs/prod3.jpg" alt="brushes" />
+              <a class="waves-effect waves-light btn-small">Ver mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax-container" id="last-parallax">
+      <div class="parallax"><img src="./imgs/wiz3.jpg" /></div>
+    </div>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Khalipaper</h5>
+            <p class="grey-text text-lighten-4">
+              Acesse nossas redes sociais e fique por dentro de sorteios e
+              promoções
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!"
+                  ><img
+                    src="./imgs/instagram.png"
+                    class="foot-links"
+                    alt="insagram icon"
+                /></a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!"
+                  ><img
+                    src="./imgs/facebook.png"
+                    class="foot-links"
+                    alt="insagram icon"
+                /></a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!"
+                  ><img
+                    src="./imgs/twitter.png"
+                    class="foot-links"
+                    alt="insagram icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2019 Sealove
+          <a
+            class="grey-text text-lighten-4 right"
+            href="https://github.com/sealove20"
+            ><img src="./imgs/github.png" alt="github icon" id="github"
+          /></a>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./script.js"></script>
