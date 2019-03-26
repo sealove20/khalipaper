@@ -1,3 +1,3 @@
 # khalipaper
 
-## Funny Things
+Funny Things
